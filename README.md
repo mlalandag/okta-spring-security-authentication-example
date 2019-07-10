@@ -1,8 +1,10 @@
-# okta-spring-security-authentication
+# Simple Authentication with Spring Security
 
 This example code is used in the blog post found [here](https://developer.okta.com/blog/2019/05/31/spring-security-authentication)
 
 This example takes you from using [Spring Security](https://spring.io/projects/spring-security) for basic authentication, to form authentication and finally to integrating with Okta using [OAuth 2.0](https://www.oauth.com/).
+
+> [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage, and secure users and roles in any application.
 
 ## Run
 
