@@ -1,8 +1,10 @@
 okta:
   oauth2:
-    issuer: https://dev-533919.oktapreview.com/oauth2/default
-    client-id: 0oakoafgytOb3swSk0h7
-    client-secret: p7S2NrCT9ldZFV1OC_COCU0NKgF_JsV0NgajROHz
+    issuer: https://dev-81525397.okta.com/oauth2/default
+    client-id: 0oa10j8ylpONE5G995d7
+#    client-id: 0oa10igyyltWYu51Y5d7
+#    client-secret: xEAK28wM95N1RFovuglT7FylbTyPwGazqABKeQzb
+    audience: http://localhost:8080
 spring:
   thymeleaf:
     cache: false
