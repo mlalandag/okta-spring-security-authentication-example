@@ -67,6 +67,7 @@ public class WebController {
         map.add("grant_type","authorization_code");
         map.add("client_id","0oa10j8ylpONE5G995d7");
         map.add("redirect_uri","http://localhost:8080/authorize/oauth2/code/okta");
+        map.add("scope","openid profile email offline_access");
         map.add("code_verifier",codeVerifier);
         map.add("code", code);
 //        try {

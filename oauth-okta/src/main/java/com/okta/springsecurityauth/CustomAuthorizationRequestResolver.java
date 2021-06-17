@@ -58,6 +58,7 @@ public class CustomAuthorizationRequestResolver implements OAuth2AuthorizationRe
             String codeChallenge = createHash(codeVerifier);
             additionalParameters.put(CODE_CHALLENGE, codeChallenge);
             additionalParameters.put(CODE_CHALLENGE_METHOD, "S256");
+            additionalParameters.put("scope", "openid profile email offline_access");
         } catch (NoSuchAlgorithmException e) {
             //additionalParameters.put(CODE_CHALLENGE, codeVerifier);
         }

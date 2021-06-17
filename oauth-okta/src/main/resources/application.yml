@@ -5,6 +5,8 @@ okta:
 #    client-id: 0oa10igyyltWYu51Y5d7
 #    client-secret: xEAK28wM95N1RFovuglT7FylbTyPwGazqABKeQzb
     audience: http://localhost:8080
+    scopes: openid profile email offline_access
+#  openid profile email
 spring:
   thymeleaf:
     cache: false
