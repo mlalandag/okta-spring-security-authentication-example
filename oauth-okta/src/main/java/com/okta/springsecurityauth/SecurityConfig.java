@@ -80,4 +80,22 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 //                .build();
 //    }
 
+//    @Bean
+//    public WebClient webClient(ClientRegistrationRepository clientRegistrationRepository, OAuth2AuthorizedClientService authorizedClientService) {
+//
+//        AuthorizedClientServiceOAuth2AuthorizedClientManager manager = new AuthorizedClientServiceOAuth2AuthorizedClientManager(clientRegistrationRepository, authorizedClientService);
+//        manager.setAuthorizedClientProvider(new DelegatingOAuth2AuthorizedClientProvider(
+//                new RefreshTokenOAuth2AuthorizedClientProvider(),
+//                new ClientCredentialsOAuth2AuthorizedClientProvider()));
+//
+//        ServletOAuth2AuthorizedClientExchangeFilterFunction oauth2 = new ServletOAuth2AuthorizedClientExchangeFilterFunction(manager);
+//
+//        oauth2.setDefaultClientRegistrationId("your-client-registratioin-id");
+//
+//        return WebClient.builder()
+//                .filter(oauth2)
+//                .apply(oauth2.oauth2Configuration())
+//                .build();
+//    }
+
 }
